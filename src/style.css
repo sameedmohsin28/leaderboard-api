@@ -1,7 +1,57 @@
-body {
-  background-color: bisque;
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-.hello {
-  color: red;
+.parent-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 10px 0 10px;
+}
+
+.board-and-add-container {
+  display: flex;
+  flex-direction: row;
+  gap: 7%;
+  padding: 0 30px;
+  /* justify-content: center; */
+}
+
+.board-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.scoreheading-and-referesh-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.scoreboard {
+  width: 100%;
+  border: 2px solid black;
+  line-height: 30px;
+}
+
+.score {
+  padding: 0 5px;
+}
+
+.add-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.submit-form {
+  width: 60px;
 }
